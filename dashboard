@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thijs Koster - Persoonlijke Webpagina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5DC; /* Beige achtergrondkleur */
+        }
+        header {
+            background-color: #003366; /* Donkerblauw */
+            color: #FFD700; /* Amber */
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #8B4513; /* Terracotta */
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #FFD700; /* Amber */
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            margin: 1rem 2rem;
+            background-color: #FFFFFF; /* Witte achtergrond voor secties */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #003366; /* Donkerblauw */
+            color: #FFD700; /* Amber */
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Thijs Koster</h1>
+    </header>
+    <nav>
+        <a href="#over-mij">Over Mij</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#diensten">Diensten</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="over-mij">
+        <h2>Over Mij</h2>
+        <p>Welkom! Mijn naam is Thijs Koster. Ik ben een [beschrijf je beroep of passie, bijvoorbeeld: webontwikkelaar, grafisch ontwerper, enz.]. Ik hou van [beschrijf je interesses of hobby's].</p>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Hier vind je een selectie van mijn werk:</p>
+        <ul>
+            <li>Project 1 - Beschrijving van het project.</li>
+            <li>Project 2 - Beschrijving van het project.</li>
+            <li>Project 3 - Beschrijving van het project.</li>
+        </ul>
+    </section>
+    <section id="diensten">
+        <h2>Diensten</h2>
+        <p>Ik bied de volgende diensten aan:</p>
+        <ul>
+            <li>Dienst 1 - Beschrijving van de dienst.</li>
+            <li>Dienst 2 - Beschrijving van de dienst.</li>
+            <li>Dienst 3 - Beschrijving van de dienst.</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Je kunt contact met mij opnemen via:</p>
+        <ul>
+            <li>Email: thijs.koster@example.com</li>
+            <li>Telefoon: +31 6 12345678</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 Thijs Koster. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>
